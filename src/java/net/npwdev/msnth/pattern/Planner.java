@@ -1,10 +1,10 @@
-package tech.npwd.msnth.pattern;
+package net.npwdev.msnth.pattern;
 
 import tech.npwd.roots.*;
 
-import static tech.npwd.msnth.main.MuSynth.argumenter;
+import static net.npwdev.msnth.main.MuSynth.argumenter;
 import static tech.npwd.roots.Randomer.random;
-import static tech.npwd.msnth.pattern.Durations.useDuration;
+import static net.npwdev.msnth.pattern.Durations.useDuration;
 
 //Planner: Establisher and Holder of the Loop Pattern
 

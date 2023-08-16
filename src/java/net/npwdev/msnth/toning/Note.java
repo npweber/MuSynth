@@ -1,4 +1,4 @@
-package tech.npwd.msnth.toning;
+package net.npwdev.msnth.toning;
 
 //Note: Object for declaring notes to play
 

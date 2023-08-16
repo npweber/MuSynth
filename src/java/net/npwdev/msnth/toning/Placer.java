@@ -1,13 +1,13 @@
-package tech.npwd.msnth.toning;
+package net.npwdev.msnth.toning;
 
 import tech.npwd.roots.*;
 
 import java.util.*;
 
-import static tech.npwd.msnth.main.MuSynth.argumenter;
+import static net.npwdev.msnth.main.MuSynth.argumenter;
 import static tech.npwd.roots.Printer.print;
 import static tech.npwd.roots.Randomer.random;
-import static tech.npwd.msnth.toning.Ordering.*;
+import static net.npwdev.msnth.toning.Ordering.*;
 
 //Placer: Takes generated beat/pattern and places randomly the notes onto the set of notes to play in the beat
 

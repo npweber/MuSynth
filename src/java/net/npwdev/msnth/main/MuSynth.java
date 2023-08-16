@@ -1,10 +1,10 @@
-package tech.npwd.msnth.main;
+package net.npwdev.msnth.main;
 
+import net.npwdev.msnth.toning.Placer;
 import tech.npwd.roots.*;
 
-import tech.npwd.msnth.generation.Generator;
-import tech.npwd.msnth.pattern.Planner;
-import tech.npwd.msnth.toning.*;
+import net.npwdev.msnth.generation.Generator;
+import net.npwdev.msnth.pattern.Planner;
 
 import javax.sound.midi.*;
 import java.io.*;
@@ -44,10 +44,10 @@ public class MuSynth {
             Planner pattern = new Planner();
 
             //Place notes onto pattern
-            Placer formattedPattern = new Placer(pattern);
+            net.npwdev.msnth.toning.Placer formattedPattern = new Placer(pattern);
 
             //Get Note Sequence from Formatted Pattern
-            Grouper<Note> notes = formattedPattern.createNoteSequence();
+            Grouper<net.npwdev.msnth.toning.Note> notes = formattedPattern.createNoteSequence();
 
             //Play the note sequence
             play(notes);
@@ -63,7 +63,7 @@ public class MuSynth {
     }
 
     //Play the sequence until the user wants to continue
-    private void play(Grouper<Note> notes){
+    private void play(Grouper<net.npwdev.msnth.toning.Note> notes){
         try {
             //Init custom synthesizer
             Synthesizer synthesizer = MidiSystem.getSynthesizer();

@@ -1,4 +1,4 @@
-package tech.npwd.msnth.toning;
+package net.npwdev.msnth.toning;
 
 //Ordering: Controls the ordering of notes in note sequencing process
 //(Pre-defined switch controlling the ordering of note pitch in the loop)

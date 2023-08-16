@@ -1,4 +1,4 @@
-package tech.npwd.msnth.generation;
+package net.npwdev.msnth.generation;
 
 import javax.sound.midi.*;
 

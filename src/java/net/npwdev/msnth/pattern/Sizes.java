@@ -1,4 +1,4 @@
-package tech.npwd.msnth.pattern;
+package net.npwdev.msnth.pattern;
 
 //Sizes: Defined amounts of notes to play in the loop
 //(Pre-defined values to account for ALL lengths of loops)

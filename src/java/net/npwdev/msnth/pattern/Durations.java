@@ -1,4 +1,4 @@
-package tech.npwd.msnth.pattern;
+package net.npwdev.msnth.pattern;
 
 //Durations: Defined intervals of note durations to be used when specifying how long a note should play
 //(Pre-defined to generate ALL types of patterns)

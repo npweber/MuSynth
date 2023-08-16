@@ -1,6 +1,6 @@
 # **MuSynth**
 
-A backend foundation for the generative music Android app "synthOS".
+A backend foundation for the generative music Android app [*synthOS*](https://github.com/npweber/synthOS).
 
 > Constructed as a Java command-line interface, the program or callable API takes simple properties of how the user wants a pattern of notes to sound as input and generates a note pattern on-demand as output.
 > <br> <br>
